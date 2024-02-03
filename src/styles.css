@@ -10,11 +10,11 @@ font-family: 'PT Serif', serif;
 
 .weather-app{
     background: white;
-    max-width: 900px;
+    max-width: 1000px;
     margin: 45px auto;
     box-shadow: 30 30px 60px rgba (65,50,100,0.05);
     border-radius: 16px;
-    padding: 30px;
+    padding: 40px;
     
 
 }
