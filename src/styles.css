@@ -13,8 +13,8 @@ font-family: 'PT Serif', serif;
     max-width: 800px;
     margin: 45px auto;
     box-shadow: 30 30px 60px rgba (65,50,100,0.05);
-    border-radius: 20px;
-    padding: 12px;
+    border-radius: 40px;
+    padding: 6px;
     line-height: 30px;
 
 }
