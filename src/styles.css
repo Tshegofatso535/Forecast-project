@@ -1,5 +1,5 @@
 body{
-    background-color: deepskyblue;
+     background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
     font-family: 'Montserrat', sans-serif;
 font-family: 'Noto Sans', sans-serif;
 font-family: 'Oswald', sans-serif;
@@ -10,11 +10,12 @@ font-family: 'PT Serif', serif;
 
 .weather-app{
     background: white;
-    max-width: 600px;
+    max-width: 800px;
     margin: 45px auto;
-    box-shadow: 0 30px 50px rgba (65,50,100,0.08);
+    box-shadow: 30 30px 60px rgba (65,50,100,0.05);
     border-radius: 16px;
     padding: 30px;
+    line-height: 30px;
 
 }
 
@@ -22,17 +23,17 @@ font-family: 'PT Serif', serif;
     background-color: #f9f7fe;
     border:none;
     border-radius: 6px;
-    width:80%;
+    width:70%;
     font-size: 16px;
-    padding: 15px 20px;
+    padding: 15px 30px;
 }
 
 .search-form-button{
     margin-bottom: 4px;
-    background: palevioletred;
-    padding: 15px 20px;
+    background: #00D7FF;
+    padding: 15px 30px;
     border: none;
-    font-size: 13px;
+    font-size: 16px;
     margin-left: 5px;
     border-radius: 6px;
     color:white
@@ -55,7 +56,7 @@ color: rgba (0,0,0,0.6);
 }
 
 a{
-color:fuchsia;
+color:#28DF99;
 
 }
 .weather-app-data{
@@ -74,7 +75,7 @@ weather-app-city{
 }
 
 .weather-app-details strong{
-    color: blueviolet;
+    color:#28DF99;
 }
 
 .weather-app-temperature-container{
@@ -105,8 +106,34 @@ weather-app-city{
 }
 
 .weather-forecast-icon{
-    width:88px;
-    height:88px;
-    display: block;
+    width:80px;
+    height:80px;
+    display: flex;
+    justify-content: center;
     margin: 0 auto;
+}
+
+.weather-forecast-date{
+    text-align: center;
+    color:rgba(61, 58, 72, 0.4);
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    
+
+}
+
+.weather-forecast-temperatures{
+text-align: center;
+color:deepskyblue;
+margin-top: 10px;
+display: flex;
+justify-content: center;
+
+
+}
+
+.weather-forecast-temperature{
+    padding: 0 10px;
+    
 }

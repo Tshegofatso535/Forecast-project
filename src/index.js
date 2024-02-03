@@ -61,6 +61,8 @@ let days =["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
 return days[date.getDay()];
 
 
+
+
 }
 
 function getForecast(city){
@@ -89,9 +91,9 @@ function displayForecast(response){
         
         <div class="weather-forecast-temperatures">
         <div class="weather-forecast-temperature"> 
-        <strong>${Math.round(day.temperature.maxium)}°</strong>
+        <strong>${Math.round(day.temperature.maximum)}°</strong>
          </div>
-        <div class="weather-forecast-temperature">${Math.round(day.temperature.minium)}°</div>
+        <div class="weather-forecast-temperature">${Math.round(day.temperature.minimum)}°</div>
 
         </div>
 
@@ -105,8 +107,8 @@ function displayForecast(response){
 
 
 let forecastElement=document.querySelector("#forecast");
-forecastElement.innerHTML= forecast
-};
+forecastElement.innerHTML= forecastHTML;
+}
 
 
 let searchFormElement = document.querySelector("#search-form");
